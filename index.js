@@ -88,7 +88,7 @@ function carbs(){
 }
 
 function macros(){
-    return document.getElementById("result").innerHTML= " CALORIES: " +  caloricGoal() + "kcal" + " PROTEIN: " + protein() + "g" + " FAT: " + fat() + "g" + " CARBOHYDRATES: " + carbs() +"g";
+    return document.getElementById("result").innerHTML= "<ul><li> CALORIES " +  caloricGoal() + "kcal</li><br>" + " <li> PROTEIN " + protein() + "g</li><br>" + " <li> FAT " + fat() + "g</li><br>" + " <li> CARBOHYDRATES " + carbs() +"g</li></ul>";
     }
 
 
